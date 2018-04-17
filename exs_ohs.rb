@@ -4,9 +4,13 @@
 #The method must return a boolean and be case insensitive. 
 #The string can contain any char.
 
-def XO (str)
-	str.downcase!
-	str.count('o') == str.count('x')
+def XO(str)
+  if (str.downcase.count('x') == str.downcase.count('o') )
+    puts "true"
+    return true
+  else  puts "false" 
+    return false
+  end
 end
 
-# maybe remove !,
+XO("xxoXO")
