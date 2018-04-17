@@ -14,3 +14,9 @@ def XO(str)
 end
 
 XO("xxoXO")
+
+
+# I had .downcase!, but those types of methods have a caveat 
+# that can bite you: 
+# If they performed no change, many methods return nil 
+# rather than what you expect, it was returing nil in some cases
