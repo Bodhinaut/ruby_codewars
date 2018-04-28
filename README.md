@@ -9,3 +9,6 @@ puzzles from codewars
 *Your function should return true if the hand is a flush, false otherwise.
 
 *The possible card values are 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A
+
+### camelCase
+* takes in a string with - or _ and transforms the string into a string with camel case, camel-case-yes turns into camelCaseYes
