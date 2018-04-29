@@ -13,31 +13,20 @@ def song_decoder(song)
     
     index += 1
   end
-  
-  print split_arr
-  
-
-  
-  
-  
   new_song = ""
   index = 0
   while index < split_arr.length
     if split_arr[index] != "" 
       new_song += split_arr[index] + " "
     end
+    
+    
+      
+    
     index += 1
   end
-  
-
-  
-  #new_song.gsub!(/\s+$/,'')
-  #print new_song
-  #return new_song
+  new_song.gsub!(/\s+$/,'')
+  print new_song
 end
 
-
-
-
-
-# FIND a way, replace string with - , then squish the - down to one, then replace with gsub the hyphen with a space 
+song_decoder("AWUBWUBWUBBWUBWUBWUBC")
