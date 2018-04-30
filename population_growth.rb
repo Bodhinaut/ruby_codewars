@@ -1,14 +1,6 @@
-def nb_year(p0, percent, aug, p)
-  perc = percent / 100.0
-  
-  pop_needed = (p - p0) # 3500 right now
-  
-  years = 0
-  while p > p0
-    
-    p0 += (p0 * perc + aug).floor
-    years += 1
-  end
-  print years
-  return years
+def nb_year(p0, percent, aug, p, year = 0)
+  return year if p0 >= p
+  nb_year( ( p0 * ( 1 + ( percent / 100.0 ) ) + aug ).floor, percent, aug, p, year + 1 )
 end
+
+# took solution from O(N) to O(1)
