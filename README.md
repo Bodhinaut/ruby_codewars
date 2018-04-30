@@ -57,3 +57,5 @@ the function nb_year should return n number of entire years needed to get a popu
 
 aug is an integer, percent a positive or null number, p0 and p are positive integers (> 0)
 
+### vowels java
+* counting vowels in a string in java and returning the vowel count
