@@ -59,3 +59,8 @@ aug is an integer, percent a positive or null number, p0 and p are positive inte
 
 ### vowels java
 * counting vowels in a string in java and returning the vowel count
+
+### find_odd_occurenece
+* Given an array, find the int that appears an odd number of times.
+
+There will always be only one integer that appears an odd number of times.
