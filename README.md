@@ -104,3 +104,7 @@ At index 0 the left side is {}
 The right side is {10,-80,10,10,15,35}
 They both are equal to 0 when added. (Empty arrays are equal to 0 in this problem)
 Index 0 is the place where the left side and right side are equal.
+
+
+### pig_latin
+*Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
